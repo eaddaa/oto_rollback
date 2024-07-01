@@ -7,7 +7,7 @@ nano oto_rollback.sh
 #!/bin/bash
 
 # Log file
-LOG_FILE="/var/log/stationd.log"
+LOG_FILE="/var/log/restart_stationd.log"
 
 # Function to check if the log flow is broken
 check_log_flow() {
